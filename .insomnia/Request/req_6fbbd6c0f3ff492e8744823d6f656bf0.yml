@@ -1,0 +1,30 @@
+_id: req_6fbbd6c0f3ff492e8744823d6f656bf0
+type: Request
+parentId: fld_d711038b090d4cb8b0c371814508512d
+modified: 1615314608477
+created: 1615314608477
+url: http://localhost:3000/brands
+name: create brand
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"name": "Camisa asas",
+    	"image": "https://i.imgur.com/U4iGx1j.jpeg"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_4c95c6ea22f540fd9695ff77a9bd0716
+authentication: {}
+metaSortKey: -1613132865191
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

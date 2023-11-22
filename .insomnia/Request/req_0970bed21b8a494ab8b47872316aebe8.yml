@@ -1,0 +1,21 @@
+_id: req_0970bed21b8a494ab8b47872316aebe8
+type: Request
+parentId: fld_4f6d725f1b964c21887c3ced84bb32fd
+modified: 1615314608466
+created: 1615314608466
+url: http://localhost:3000/products/asas
+name: delete product
+description: ""
+method: DELETE
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1613132865166
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

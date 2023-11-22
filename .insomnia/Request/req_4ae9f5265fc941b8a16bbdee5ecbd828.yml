@@ -1,0 +1,34 @@
+_id: req_4ae9f5265fc941b8a16bbdee5ecbd828
+type: Request
+parentId: wrk_02b4ab1009e7452fbab0d0b5259917a1
+modified: 1615309695533
+created: 1615229508269
+url: http://localhost:3000/products
+name: Create product
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"name": "Product 1212",
+    	"price": 111,
+    	"stock": 1212,
+    	"image": "gmail.com",
+    	"description": "12",
+    	"otro": "1212"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_85f5af76f851479d88cbf199820af2aa
+authentication: {}
+metaSortKey: -1615229508269
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

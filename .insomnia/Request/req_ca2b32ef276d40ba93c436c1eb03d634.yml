@@ -1,0 +1,29 @@
+_id: req_ca2b32ef276d40ba93c436c1eb03d634
+type: Request
+parentId: fld_bf95395ffa10473dab056cdb00c8bd14
+modified: 1615314608515
+created: 1615314608515
+url: http://localhost:3000/customers/1
+name: update customer
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"name": "change name"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_4c95c6ea22f540fd9695ff77a9bd0716
+authentication: {}
+metaSortKey: -1613132865178.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,29 @@
+_id: req_42a5ad5e9f374f8ca1eacf674631edcc
+type: Request
+parentId: fld_5405f9b9123f4979bf85bf1229f4a30f
+modified: 1615314608526
+created: 1615314608526
+url: http://localhost:3000/users/1
+name: update user
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"email": "change@mail.com"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_4c95c6ea22f540fd9695ff77a9bd0716
+authentication: {}
+metaSortKey: -1613132865178.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

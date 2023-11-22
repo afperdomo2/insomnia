@@ -1,0 +1,31 @@
+_id: req_8b00df2c2a9c4820b0b2ce4bd1535ca4
+type: Request
+parentId: fld_bf95395ffa10473dab056cdb00c8bd14
+modified: 1615314608513
+created: 1615314608513
+url: http://localhost:3000/customers
+name: create customer
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"name": "Santiango",
+    	"lastName": "Molina",
+    	"phone": "+1 213 373 4253"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_4c95c6ea22f540fd9695ff77a9bd0716
+authentication: {}
+metaSortKey: -1613132865191
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

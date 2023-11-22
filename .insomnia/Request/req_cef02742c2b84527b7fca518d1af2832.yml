@@ -1,0 +1,29 @@
+_id: req_cef02742c2b84527b7fca518d1af2832
+type: Request
+parentId: fld_4f6d725f1b964c21887c3ced84bb32fd
+modified: 1615314608464
+created: 1615314608464
+url: http://localhost:3000/products/1
+name: update product
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"price": 12122
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_4c95c6ea22f540fd9695ff77a9bd0716
+authentication: {}
+metaSortKey: -1613132865178.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

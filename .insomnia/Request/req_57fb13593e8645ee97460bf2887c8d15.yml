@@ -1,0 +1,21 @@
+_id: req_57fb13593e8645ee97460bf2887c8d15
+type: Request
+parentId: fld_d711038b090d4cb8b0c371814508512d
+modified: 1615314608475
+created: 1615314608475
+url: http://localhost:3000/brands/1
+name: get brand
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1613132865216
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

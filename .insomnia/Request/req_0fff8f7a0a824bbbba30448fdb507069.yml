@@ -1,0 +1,29 @@
+_id: req_0fff8f7a0a824bbbba30448fdb507069
+type: Request
+parentId: fld_7e039fb6d6e7460193a24e4e5e346a98
+modified: 1615314608498
+created: 1615314608498
+url: http://localhost:3000/categories/1
+name: update category
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"name": "change name"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_4c95c6ea22f540fd9695ff77a9bd0716
+authentication: {}
+metaSortKey: -1613132865178.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
