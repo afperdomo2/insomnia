@@ -1,0 +1,27 @@
+_id: req_1ec2d1112dd94575a058be2d0e39bbcb
+type: Request
+parentId: fld_7fbf16ef67b74813ad501385fc96dd5d
+modified: 1700693100507
+created: 1700693022876
+url: http://localhost:3000/graphql
+name: hello
+description: ""
+method: POST
+body:
+  mimeType: application/graphql
+  text: '{"query":"{\n\thello\n}"}'
+parameters: []
+headers:
+  - name: User-Agent
+    value: insomnia/2023.5.8
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1700693022876
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
