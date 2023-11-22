@@ -1,0 +1,23 @@
+_id: req_12c10ddc96594cd6a8e14706f491e408
+type: Request
+parentId: fld_ef0ba790452c4cdc9238fc3841af5196
+modified: 1700688113973
+created: 1660230089215
+url: "{{ _.API_URL }}/api/v1/users/"
+name: getAll
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOjMsInJvbGUiOiJhZG1pbiIsImlhdCI6MTcwMDY4ODA5M30.vSxx7C__sFtq3zB2iV8-Jmi-44kKyfjAO_AfQnAoRmA
+metaSortKey: -1645014463273
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,33 @@
+_id: req_5bdb79e61482440eb815fb8de6e95087
+type: Request
+parentId: fld_658be1cf33974d8a93d61ea92e92123a
+modified: 1660304743658
+created: 1660230089191
+url: "{{ _.API_URL }}/api/v1/products/"
+name: create
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "name": "New Product",
+      "price": 10,
+      "description": "A description",
+      "categoryId": 1,
+      "image": "https://api.lorem.space/image/game?w=150&h=220"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_0df83e19008842feb0a4366fe1624462
+authentication: {}
+metaSortKey: -1634611586934.2656
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

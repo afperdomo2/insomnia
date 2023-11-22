@@ -1,0 +1,29 @@
+_id: req_727c804220334feda77c578af7f41c0c
+type: Request
+parentId: fld_43db29a995854304b2396dbcbbec7b4b
+modified: 1660304548320
+created: 1660304521934
+url: "{{ _.API_URL }}/api/v1/auth/recovery"
+name: recovery
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"email": "admin@mail.com"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_6c4adef091164c07b597fc1c8415ff6a
+authentication: {}
+metaSortKey: -1641561546066.7656
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,35 @@
+_id: req_0cdb4ffffec4431a9ff7333946d9da60
+type: Request
+parentId: fld_debcf176120d4ffd906c1948dae511b3
+modified: 1660304700360
+created: 1660231022144
+url: "{{ _.API_URL }}/api/v1/customers/"
+name: create
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"name": "Valentina",
+    	"lastName": "Molina",
+    	"phone": "121212",
+    	"user": {
+    		"email": "customer@gmail.com",
+    		"password": "12345678"
+    	}
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_6c4adef091164c07b597fc1c8415ff6a
+authentication: {}
+metaSortKey: -1645014463223
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

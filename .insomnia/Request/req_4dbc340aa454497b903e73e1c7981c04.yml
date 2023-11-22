@@ -1,0 +1,31 @@
+_id: req_4dbc340aa454497b903e73e1c7981c04
+type: Request
+parentId: fld_658be1cf33974d8a93d61ea92e92123a
+modified: 1660304791454
+created: 1660230089193
+url: "{{ _.API_URL }}/api/v1/products/"
+name: pagination
+description: ""
+method: GET
+body: {}
+parameters:
+  - id: pair_3ba9be553276479d83f2e6330c75f661
+    name: limit
+    value: "2"
+    description: ""
+    disabled: false
+  - id: pair_3d77edb2679c4116b410b920fc75a9c5
+    name: offset
+    value: "0"
+    description: ""
+    disabled: false
+headers: []
+authentication: {}
+metaSortKey: -1634803890640.9062
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

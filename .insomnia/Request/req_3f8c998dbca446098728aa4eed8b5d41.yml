@@ -1,0 +1,31 @@
+_id: req_3f8c998dbca446098728aa4eed8b5d41
+type: Request
+parentId: fld_ef0ba790452c4cdc9238fc3841af5196
+modified: 1660232328767
+created: 1660230089211
+url: "{{ _.API_URL }}/api/v1/users/"
+name: create
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"email": "admin@mail.com",
+    	"password": "admin123",
+    	"role": "admin"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_6c4adef091164c07b597fc1c8415ff6a
+authentication: {}
+metaSortKey: -1645014463223
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

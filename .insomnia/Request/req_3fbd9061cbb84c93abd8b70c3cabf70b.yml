@@ -1,0 +1,21 @@
+_id: req_3fbd9061cbb84c93abd8b70c3cabf70b
+type: Request
+parentId: fld_62f8f7f61ae7487893e5c8a7a0a378dc
+modified: 1660230368749
+created: 1660230354723
+url: "{{ _.API_URL }}/nueva-ruta"
+name: new-route
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1658373366661.125
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

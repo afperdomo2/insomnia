@@ -1,0 +1,29 @@
+_id: req_bee6edc266194f2d9ed1857a69a60272
+type: Request
+parentId: fld_debcf176120d4ffd906c1948dae511b3
+modified: 1660304710968
+created: 1660304708228
+url: "{{ _.API_URL }}/api/v1/customers/1"
+name: delete
+description: ""
+method: DELETE
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"name": "Nicolas"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_6c4adef091164c07b597fc1c8415ff6a
+authentication: {}
+metaSortKey: -1642945944989
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,29 @@
+_id: req_25a0c6999509455983f5daf23f91dc18
+type: Request
+parentId: fld_5a5b6c8278464e2db63ef9adf8ba9f17
+modified: 1660304434766
+created: 1660304272578
+url: "{{ _.API_URL }}/api/v1/orders/"
+name: create
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "customerId": 1
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_0df83e19008842feb0a4366fe1624462
+authentication: {}
+metaSortKey: -1633991941657.3125
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

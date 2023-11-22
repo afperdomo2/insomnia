@@ -1,0 +1,24 @@
+_id: req_e1c0e384cd714d438c4ba38e356f1793
+type: Request
+parentId: fld_c2b66c614daa42f2baaf462dd77d747a
+modified: 1660304631278
+created: 1660230089225
+url: "{{ _.API_URL }}/api/v1/profile/my-orders"
+name: profile
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: "{{ _.ACCESS_TOKEN }}"
+  disabled: false
+metaSortKey: -1654438711214.5625
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

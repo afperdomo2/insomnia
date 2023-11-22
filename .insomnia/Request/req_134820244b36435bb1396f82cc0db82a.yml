@@ -1,0 +1,21 @@
+_id: req_134820244b36435bb1396f82cc0db82a
+type: Request
+parentId: fld_debcf176120d4ffd906c1948dae511b3
+modified: 1660231026679
+created: 1660231022149
+url: "{{ _.API_URL }}/api/v1/customers/"
+name: getAll
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1645014463273
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

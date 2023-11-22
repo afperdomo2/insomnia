@@ -1,0 +1,31 @@
+_id: req_cb0f38eeae224295b50a2bca45a06237
+type: Request
+parentId: fld_cd4cd3746964450ca2df999e8312f4ad
+modified: 1660304665486
+created: 1660230089202
+url: "{{ _.API_URL }}/api/v1/categories/3"
+name: update
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"name": "nuevo"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_7461a0646fad4c75a737345770f9cf0f
+authentication:
+  type: bearer
+  token: "{{ _.ACCESS_TOKEN }}"
+metaSortKey: -1634419283227.625
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

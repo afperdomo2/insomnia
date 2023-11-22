@@ -1,0 +1,23 @@
+_id: req_27670931297040a1bcb46ac803d0deb9
+type: Request
+parentId: fld_658be1cf33974d8a93d61ea92e92123a
+modified: 1700688102403
+created: 1660230089183
+url: "{{ _.API_URL }}/api/v1/products/"
+name: getAll
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOjMsInJvbGUiOiJhZG1pbiIsImlhdCI6MTcwMDY4ODA5M30.vSxx7C__sFtq3zB2iV8-Jmi-44kKyfjAO_AfQnAoRmA
+metaSortKey: -1634932093112
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

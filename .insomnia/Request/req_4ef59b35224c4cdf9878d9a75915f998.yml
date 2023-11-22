@@ -1,0 +1,30 @@
+_id: req_4ef59b35224c4cdf9878d9a75915f998
+type: Request
+parentId: fld_658be1cf33974d8a93d61ea92e92123a
+modified: 1660304748809
+created: 1660230089187
+url: "{{ _.API_URL }}/api/v1/products/10"
+name: update
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "title": "Change title",
+      "price": 100
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_0df83e19008842feb0a4366fe1624462
+authentication: {}
+metaSortKey: -1634419283227.625
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

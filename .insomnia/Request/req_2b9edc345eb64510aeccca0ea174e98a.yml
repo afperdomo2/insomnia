@@ -1,0 +1,29 @@
+_id: req_2b9edc345eb64510aeccca0ea174e98a
+type: Request
+parentId: fld_debcf176120d4ffd906c1948dae511b3
+modified: 1660304704611
+created: 1660231022153
+url: "{{ _.API_URL }}/api/v1/customers/1"
+name: update
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"name": "Nicolas"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_6c4adef091164c07b597fc1c8415ff6a
+authentication: {}
+metaSortKey: -1643635451067
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

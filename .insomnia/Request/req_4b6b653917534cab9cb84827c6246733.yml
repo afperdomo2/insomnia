@@ -1,0 +1,21 @@
+_id: req_4b6b653917534cab9cb84827c6246733
+type: Request
+parentId: fld_62f8f7f61ae7487893e5c8a7a0a378dc
+modified: 1660230360829
+created: 1660230321853
+url: "{{ _.API_URL }}"
+name: hello
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1660230321853
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,23 @@
+_id: req_197b4deaaa534b9789ab6f4493ddefc3
+type: Request
+parentId: fld_cd4cd3746964450ca2df999e8312f4ad
+modified: 1660304676835
+created: 1660304669529
+url: "{{ _.API_URL }}/api/v1/categories/3"
+name: delete
+description: ""
+method: DELETE
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: "{{ _.ACCESS_TOKEN }}"
+metaSortKey: -1634312447835.0469
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

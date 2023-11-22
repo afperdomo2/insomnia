@@ -1,0 +1,16 @@
+_id: env_5a1319917f2247818b1a02ba534ce9f7
+type: Environment
+parentId: env_b421297469844c90bc4e5b6b37f263a1
+modified: 1660231243629
+created: 1660230112159
+name: Dev
+data:
+  API_URL: http://localhost:3000
+  ACCESS_TOKEN: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOjQsInJvbGUiOiJhZG1pbiIsImlhdCI6MTY2MDIzMTIyM30.GFrfKZywiH9NvzistyP1_p1cOL65oS3Q_rjIrU9vbeU
+dataPropertyOrder:
+  "&":
+    - API_URL
+    - ACCESS_TOKEN
+color: "#7d69cb"
+isPrivate: false
+metaSortKey: 1660230112159
