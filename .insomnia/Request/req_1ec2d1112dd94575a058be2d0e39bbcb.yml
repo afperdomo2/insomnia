@@ -1,7 +1,7 @@
 _id: req_1ec2d1112dd94575a058be2d0e39bbcb
 type: Request
 parentId: fld_7fbf16ef67b74813ad501385fc96dd5d
-modified: 1701209791151
+modified: 1701210879003
 created: 1700693022876
 url: http://localhost:3000/graphql
 name: addProduct
@@ -12,7 +12,7 @@ body:
   text: '{"query":"mutation {\n\taddProduct(data: {\n\t\tname: \"Camisa
     rosa\",\n    price: 2300,\n    description: \"Camisa de
     pruebas\",\n    image: \"http://localhost:3000/graphql\",\n    categoryId:
-    \"3\"}\n\t) {\n    id\n    name\n    description\n  }\n}"}'
+    \"3\"}\n\t) {\n    id\n    productName: name\n    description\n  }\n}"}'
 parameters: []
 headers:
   - name: User-Agent

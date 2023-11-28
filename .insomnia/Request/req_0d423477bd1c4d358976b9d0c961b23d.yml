@@ -1,7 +1,7 @@
 _id: req_0d423477bd1c4d358976b9d0c961b23d
 type: Request
 parentId: fld_7fbf16ef67b74813ad501385fc96dd5d
-modified: 1701209851788
+modified: 1701210813484
 created: 1701209655204
 url: http://localhost:3000/graphql
 name: product
@@ -9,7 +9,9 @@ description: ""
 method: POST
 body:
   mimeType: application/graphql
-  text: '{"query":"{\n\thello\n\tproduct(id: 10) {\n\t\tid\n\t\tname\n\t}\n}"}'
+  text: '{"query":"{\n\thello\n\t# myProduct es un alias asignado por el
+    Frontend\n\tmyProduct: product(id: 10) {\n\t\tid\n\t\tproductName:
+    name\n\t\tprice\n\t}\n}"}'
 parameters: []
 headers:
   - name: User-Agent
