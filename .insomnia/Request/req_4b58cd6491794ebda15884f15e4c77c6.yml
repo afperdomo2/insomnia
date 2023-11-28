@@ -1,0 +1,21 @@
+_id: req_4b58cd6491794ebda15884f15e4c77c6
+type: Request
+parentId: fld_7e039fb6d6e7460193a24e4e5e346a98
+modified: 1615314608501
+created: 1615314608501
+url: http://localhost:3000/categories/1
+name: delete category
+description: ""
+method: DELETE
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1613132865166
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,33 @@
+_id: req_826c53994b674f63932561edc4f9968b
+type: Request
+parentId: fld_4f6d725f1b964c21887c3ced84bb32fd
+modified: 1615314608461
+created: 1615314608461
+url: http://localhost:3000/products
+name: create product
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"name": "Camisa asas",
+    	"description": "lorem lorem lorem",
+    	"price": 1000,
+    	"stock": 100,
+    	"image": "https://i.imgur.com/U4iGx1j.jpeg"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_4c95c6ea22f540fd9695ff77a9bd0716
+authentication: {}
+metaSortKey: -1613132865191
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

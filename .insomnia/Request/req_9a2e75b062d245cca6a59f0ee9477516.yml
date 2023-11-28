@@ -1,0 +1,21 @@
+_id: req_9a2e75b062d245cca6a59f0ee9477516
+type: Request
+parentId: fld_7e039fb6d6e7460193a24e4e5e346a98
+modified: 1615314608490
+created: 1615314608490
+url: http://localhost:3000/categories/
+name: get categories
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1613132865266
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

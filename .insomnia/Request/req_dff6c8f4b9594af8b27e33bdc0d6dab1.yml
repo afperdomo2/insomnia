@@ -1,0 +1,21 @@
+_id: req_dff6c8f4b9594af8b27e33bdc0d6dab1
+type: Request
+parentId: wrk_02b4ab1009e7452fbab0d0b5259917a1
+modified: 1615229577672
+created: 1615229558578
+url: http://localhost:3000/products?brand=qaa
+name: Get products
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1614957797109.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

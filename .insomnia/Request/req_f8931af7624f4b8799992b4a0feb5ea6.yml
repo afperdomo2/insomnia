@@ -1,0 +1,31 @@
+_id: req_f8931af7624f4b8799992b4a0feb5ea6
+type: Request
+parentId: wrk_483ef4d3cf954c3688eb3d51143bf44d
+modified: 1694731103670
+created: 1694725621274
+url: http://localhost:3000/api/users
+name: Create
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"id": 3,
+    	"name": "Juan"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: User-Agent
+    value: insomnia/2023.5.8
+authentication: {}
+metaSortKey: -1693328933467
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

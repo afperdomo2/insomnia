@@ -1,0 +1,10 @@
+_id: fld_bec82c752162449c9856aa256e041e9b
+type: RequestGroup
+parentId: wrk_02b4ab1009e7452fbab0d0b5259917a1
+modified: 1615314622215
+created: 1615314608451
+name: NestJS Modular
+description: ""
+environment: {}
+environmentPropertyOrder: null
+metaSortKey: -1615299636565

@@ -1,0 +1,21 @@
+_id: req_2ba91c5306684ad2adb3a455b9944b9c
+type: Request
+parentId: fld_bf95395ffa10473dab056cdb00c8bd14
+modified: 1615314608518
+created: 1615314608518
+url: http://localhost:3000/customers/1
+name: delete customer
+description: ""
+method: DELETE
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1613132865166
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
