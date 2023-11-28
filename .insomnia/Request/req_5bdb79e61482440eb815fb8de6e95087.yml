@@ -1,7 +1,7 @@
 _id: req_5bdb79e61482440eb815fb8de6e95087
 type: Request
 parentId: fld_658be1cf33974d8a93d61ea92e92123a
-modified: 1660304743658
+modified: 1701207467172
 created: 1660230089191
 url: "{{ _.API_URL }}/api/v1/products/"
 name: create
@@ -11,10 +11,10 @@ body:
   mimeType: application/json
   text: |-
     {
-      "name": "New Product",
+      "name": "New Product 3",
       "price": 10,
       "description": "A description",
-      "categoryId": 1,
+      "categoryId": 3,
       "image": "https://api.lorem.space/image/game?w=150&h=220"
     }
 parameters: []

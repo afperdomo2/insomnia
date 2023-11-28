@@ -1,7 +1,7 @@
 _id: req_27670931297040a1bcb46ac803d0deb9
 type: Request
 parentId: fld_658be1cf33974d8a93d61ea92e92123a
-modified: 1700688102403
+modified: 1701124096309
 created: 1660230089183
 url: "{{ _.API_URL }}/api/v1/products/"
 name: getAll

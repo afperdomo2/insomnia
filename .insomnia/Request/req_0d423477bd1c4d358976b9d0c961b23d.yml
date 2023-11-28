@@ -1,18 +1,15 @@
-_id: req_1ec2d1112dd94575a058be2d0e39bbcb
+_id: req_0d423477bd1c4d358976b9d0c961b23d
 type: Request
 parentId: fld_7fbf16ef67b74813ad501385fc96dd5d
-modified: 1701209791151
-created: 1700693022876
+modified: 1701209851788
+created: 1701209655204
 url: http://localhost:3000/graphql
-name: addProduct
+name: product
 description: ""
 method: POST
 body:
   mimeType: application/graphql
-  text: '{"query":"mutation {\n\taddProduct(data: {\n\t\tname: \"Camisa
-    rosa\",\n    price: 2300,\n    description: \"Camisa de
-    pruebas\",\n    image: \"http://localhost:3000/graphql\",\n    categoryId:
-    \"3\"}\n\t) {\n    id\n    name\n    description\n  }\n}"}'
+  text: '{"query":"{\n\thello\n\tproduct(id: 10) {\n\t\tid\n\t\tname\n\t}\n}"}'
 parameters: []
 headers:
   - name: User-Agent
@@ -20,7 +17,7 @@ headers:
   - name: Content-Type
     value: application/json
 authentication: {}
-metaSortKey: -1700693022876
+metaSortKey: -1698529024385.5
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true
