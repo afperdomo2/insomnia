@@ -1,0 +1,30 @@
+_id: req_7e4f262f38eb4e01ad158d18c403fb71
+type: Request
+parentId: fld_7fbf16ef67b74813ad501385fc96dd5d
+modified: 1701293066791
+created: 1701293045517
+url: http://localhost:3000/graphql
+name: updateProduct
+description: ""
+method: POST
+body:
+  mimeType: application/graphql
+  text: '{"query":"mutation ($updateProductId: ID!, $changes: UpdateProductInput!)
+    {\n  updateProduct(id: $updateProductId, changes: $changes)
+    {\n    id\n    price\n    name\n    image\n    description\n  }\n}","variables":{"updateProductId":"9","changes":{"name":"pantalon
+    verde 22","price":2300}}}'
+parameters: []
+headers:
+  - name: User-Agent
+    value: insomnia/2023.5.8
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1700152023253.375
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
