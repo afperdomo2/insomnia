@@ -1,0 +1,28 @@
+_id: req_d22f7b0daa894793ba6fedbbe40ffe86
+type: Request
+parentId: fld_7fbf16ef67b74813ad501385fc96dd5d
+modified: 1701293437740
+created: 1701293416983
+url: http://localhost:3000/graphql
+name: deleteProduct
+description: ""
+method: POST
+body:
+  mimeType: application/graphql
+  text: '{"query":"mutation ($deleteProductId: ID!) {\n  deleteProduct(id:
+    $deleteProductId)\n}","variables":{"deleteProductId":"12"}}'
+parameters: []
+headers:
+  - name: User-Agent
+    value: insomnia/2023.5.8
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1699881523442.0625
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
