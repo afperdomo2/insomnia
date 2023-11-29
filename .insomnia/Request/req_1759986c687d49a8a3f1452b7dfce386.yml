@@ -1,7 +1,7 @@
 _id: req_1759986c687d49a8a3f1452b7dfce386
 type: Request
 parentId: fld_7fbf16ef67b74813ad501385fc96dd5d
-modified: 1701209804008
+modified: 1701294584079
 created: 1701209804008
 url: http://localhost:3000/graphql
 name: products
@@ -10,7 +10,8 @@ method: POST
 body:
   mimeType: application/graphql
   text: '{"query":"{\n\thello\n\tproducts
-    {\n\t\tid\n\t\tname\n\t\timage\n\t\tprice\n\t}\n}"}'
+    {\n\t\tid\n\t\tname\n\t\tprice\n\t\tcategoryId\n\t\tcategory
+    {\n\t\t\tname\n\t\t}\n\t}\n}"}'
 parameters: []
 headers:
   - name: User-Agent
