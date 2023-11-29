@@ -1,19 +1,19 @@
-_id: req_1ec2d1112dd94575a058be2d0e39bbcb
+_id: req_d216413a8ae14c09a42f23fe660fb326
 type: Request
 parentId: fld_7fbf16ef67b74813ad501385fc96dd5d
-modified: 1701292240240
-created: 1700693022876
+modified: 1701292254351
+created: 1701292115434
 url: http://localhost:3000/graphql
-name: addProduct
+name: addProduct sin variables
 description: ""
 method: POST
 body:
   mimeType: application/graphql
-  text: '{"query":"# Usando variables\nmutation($data: CreateProductInput!)
-    {\n  addProduct(data: $data)
-    {\n    id\n    name\n    description\n  }\n}","variables":{"data":{"name":"Camisa
-    verde","price":2300,"description":"Camisa de
-    promoción","image":"http://localhost:3000/graphql","categoryId":"3"}}}'
+  text: '{"query":"mutation {\n\t# Sin usar variables\n\taddProduct(data:
+    {\n\t\tname: \"Camisa verde\",\n    price: 2300,\n    description: \"Camisa
+    de promoción\",\n    image:
+    \"http://localhost:3000/graphql\",\n    categoryId:
+    \"3\"\n\t}){\n    id\n    name\n    description\n  }\n}","variables":{}}'
 parameters: []
 headers:
   - name: User-Agent
@@ -21,7 +21,7 @@ headers:
   - name: Content-Type
     value: application/json
 authentication: {}
-metaSortKey: -1700693022876
+metaSortKey: -1699611023630.75
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true
